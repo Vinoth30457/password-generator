@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #3b3b98;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+:root {
+  --bg: #3b3b98;
+  --input-bg: #151537;
+  --btn-clr: #3b3b98;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  /* customize */
+  background-color: #1c2042;
+  color: white;
+  border: 2px solid #1c2042;
+}
+.card {
+  width: 22rem;
+  background-color: #23235b;
+  color: #fff;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.35);
+}
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.output-row {
+  width: 100%;
+  position: relative;
+}
+.output-row input {
+  width: 100%;
+  background-color: var(--input-bg);
+  border: none;
+  height: 3.3rem;
+  color: #ffff;
+  padding-left: 0.5rem;
+}
+.output-row button:hover {
+  cursor: pointer;
+}
+.output-row button {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.2rem;
+  background-color: #3b3b98;
+  color: #fff;
+  border: none;
+  padding: 0.7rem;
+  font-size: 1.25rem;
+}
+.input-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#count {
+  width: 4.5rem;
+}
+.btn-submit {
+  background-color: var(--btn-clr);
+  padding: 0.5rem;
+  color: #fff;
+  border: none;
+}
+.btn-submit:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
