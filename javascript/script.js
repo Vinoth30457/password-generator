@@ -72,7 +72,10 @@ formEl.addEventListener("submit", (e) => {
   randomPassword();
 });
 copyBtn.addEventListener("click", () => {
+  outputEl.select();
+  outputEl.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(outputEl.value);
+
   alert("Password copied to clipboard!");
 });
 
