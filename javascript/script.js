@@ -72,7 +72,7 @@ formEl.addEventListener("submit", (e) => {
   randomPassword();
 });
 copyBtn.addEventListener("click", () => {
-  navigator.clipboard.writeText(pass);
+  navigator.clipboard.writeText(outputEl.value);
   alert("Password copied to clipboard!");
 });
 
