@@ -50,7 +50,7 @@ const randomPassword = () => {
     num = "";
   }
   if (symbolsEl.checked === true) {
-    symbol = "@#$%";
+    symbol = "@#$%&*()!,.[]{}*/-+";
   } else {
     symbol = "";
   }

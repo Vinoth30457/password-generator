@@ -23,6 +23,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 :root {
   --bg: #3b3b98;
   --input-bg: #151537;
@@ -66,8 +67,9 @@ li {
   color: white;
   border: 2px solid #1c2042;
 }
+
 .card {
-  width: 22rem;
+  width: 21rem;
   background-color: #23235b;
   color: #fff;
   padding: 1.25rem;
@@ -76,14 +78,17 @@ li {
   gap: 1rem;
   box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.35);
 }
+
 .title {
   font-size: 1.5rem;
   text-align: center;
 }
+
 .output-row {
   width: 100%;
   position: relative;
 }
+
 .output-row input {
   width: 100%;
   background-color: var(--input-bg);
@@ -92,9 +97,11 @@ li {
   color: #ffff;
   padding-left: 0.5rem;
 }
+
 .output-row button:hover {
   cursor: pointer;
 }
+
 .output-row button {
   position: absolute;
   right: 0.3rem;
@@ -105,39 +112,39 @@ li {
   padding: 0.7rem;
   font-size: 1.25rem;
 }
+
 .input-row {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 #count {
   width: 4.5rem;
 }
+
 .btn-submit {
   background-color: var(--btn-clr);
   padding: 0.5rem;
   color: #fff;
   border: none;
 }
+
 .btn-submit:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets) */
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops) */
 
-@media (min-width: 991px) {
-}
+@media (min-width: 991px) {}
 
 /* Extra large devices (large desktops) */
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
